@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+
+   <title>Lesson 2</title>
+   <style>
+      p {
+         color: green;
+      }
+   </style>
+
+</head>
+
+<body>
+
+   <!-- 1. Инлайновые стили (атрибут style) Имеют найвыший приоритет-->
+   <!-- 1.1 Применяется к любому тексту в HTML (например для смены цвета)-->
+
+   <!-- 2. Обращение из HTML (тег style)-->
+   <!-- 2.1Подключение тега style в <head>  -->
+   <!-- Пример: -->
+   <!-- <style>
+      p {
+         color: green;
+      }
+   </style> -->
+
+   <!-- 3. Подключение внешнего файла (тег link + файл *.css)-->
+
+   <header>
+      <nav>
+         <ul id="menu">
+            <li>
+               <a href="">Я ссылка</a>
+            </li>
+            </li>
+            <a href="">Я ссылка</a>
+            </li>
+            <li>
+               <a href="">Я ссылка</a>
+            </li>
+            </li>
+            <a href="">Я ссылка</a>
+            </li>
+         </ul>
+      </nav>
+   </header>
+
+
+   <main>
+      <div>
+         <p style="color: red;">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis voluptas voluptatem magni culpa, ullam
+            nihil tempore delectus dignissimos officia quod, sequi earum expedita. Libero atque, porro nemo suscipit
+            voluptates praesentium.
+         </p>
+
+         <div class="text">
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit aut quisquam iste eum
+               mollitia perferendis tempore eveniet recusandae? Repellendus, sequi odio. Ad optio tenetur sint veritatis
+               ipsum mollitia illum?
+            </p>
+
+            <p id="main-text" class="text">
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates similique harum vitae quas quibusdam
+               libero deleniti nesciunt eius iste, incidunt animi laborum voluptas aspernatur voluptatibus consectetur
+               quaerat. Inventore, ad sed?
+            </p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique laborum suscipit delectus praesentium
+               iste corrupti quidem dolore, autem tempora quaerat! Expedita, recusandae sed pariatur aut officia
+               excepturi
+               iure nam illum?</p>
+         </div>
+      </div>
+
+   </main>
+   <footer>
+
+      Я подвал
+   </footer>
+
+</body>
+
+</html>
